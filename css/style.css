@@ -1,0 +1,204 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+  font-family:'Old Standard TT',serif;
+  font-size: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+}
+.my-navbar{
+  position: fixed;
+  text-transform:uppercase;
+  font-family: 'Old Standard TT', serif;
+  z-index: 4;
+  background-color: #ffffcc;
+  height: 10vh;
+  width:100%;
+}
+.lt-link{
+  color:#ff6666;
+}
+.lt-link:hover{
+  color:#111;
+}
+/* video */
+.video-bg-container{
+  display:flex;
+  height:100vh;
+  color:#fff;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video-main-container{
+  max-width:960px;
+  text-align: center;
+  margin: auto;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.video-container{
+ position:absolute;
+ top:5rem;
+ left:0;
+ width:100%;
+ height: 100vh;
+ overflow:hidden;
+}
+.video-container video{
+ min-width:100%;
+ min-height:100%;
+}
+.overlay-contents{
+  position:absolute;
+  top:5rem;
+  left: 0;
+  width:100vw;
+  height:100vh;
+  background-color:#ff6666;
+  z-index:3;
+  opacity:0.95;
+}
+.big-heading{
+  font-weigth:bold;
+  margin-top:250px;
+}
+.home-page-content{
+  padding-left:15rem;
+  padding-right:15rem;
+  margin:2rem 300px;
+  line-height: 2rem;
+  font-size: 20px;
+  z-index: 3;
+}
+.home-page-cta-btn{
+  background-color: #ffffcc;
+  border: 1px solid #fff;
+  color:#ff6666;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.home-page-cta-btn:hover{
+  background-color: #fff;
+}
+/* ABOUT */
+#about{
+    margin-top:10rem;
+}
+.about-content-bg{
+  background-color:#ff6666;
+  height:100vh;
+  padding-top:15rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+  text-align: center;
+  color:#fff;
+  line-height: 2rem;
+}
+.about-content{
+  padding-top:1rem;
+}
+/* js */
+.technical-skills-js{
+    background-color:#ff6666;
+    border-left:3px solid white;
+}
+
+.technical-skills-list-2{
+  height:100vh;
+  padding-top:15rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+  text-align: center;
+  color:#fff;
+  line-height: 2rem;
+}
+
+/* end of js */
+.technical-skills{
+  height:100vh;
+  padding-top:15rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+  text-align: center;
+  color:#ff6666;
+  line-height: 2rem;
+}
+.technical-skills-lists{
+  list-style-type: none;
+  text-transform:uppercase;
+  padding-top:1rem;
+}
+/* contact-me */
+#contact{
+  margin-top:5rem;
+}
+.contact-me{
+  height:100vh;
+  padding-top:8rem;
+  /* padding-left:5rem;
+  padding-right: 5rem; */
+  color:#fff;
+  text-align: left;
+  background-color:#ff6666;
+  line-height: 2rem;
+}
+.contact-name{
+  text-align: center;
+  padding-bottom:4rem;
+}
+.contact-info{
+    margin-left: auto;
+    width:60%;
+    padding-top:2rem;
+    padding-bottom:3rem;
+}
+.contact-info a{
+  color:#fff;
+  text-decoration:none;
+  cursor:pointer;
+}
+.contact-info a:hover{
+  color:#ffffcc;
+  text-decoration:none;
+  cursor:pointer;
+}
+.horizontal-line{
+  color:#ffffcc
+  border:none;
+  border-top:5px double #ffffcc;
+  /* height:50px; */
+  width:80%;
+  padding-top:3rem;
+}
+.contact-icon{
+  padding-right: 1rem;
+}
+
+.quote-of-the-day{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom:5rem;
+  color:#111;
+}
+
+@media (max-width:960px) {
+  .home-page-content{
+    padding-left:2rem;
+    padding-right:2rem;
+    margin:2rem 0;
+    line-height: 2rem;
+  }
+  /* about */
+
+  /* contact */
+
+  .contact-info{
+      width:80%;
+  }
+}
