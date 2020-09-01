@@ -1,0 +1,78 @@
+@media only screen 
+/* and (min-device-width : 768px)  */
+and (max-device-width : 1023px) {
+  .row{padding-left:30px;}
+  .mobile-main-nav{display: none;}
+/* h1,h2{
+  font-size:140%;
+  letter-spacing: 5px;
+} */
+section{padding:2%;}
+}
+.about-section p {
+ /* width: 100%; */
+ /* font-size: 90%; */
+  padding-top: 30px;
+}
+/* .skills-list ul li {
+  font-size: 88%;
+} */
+.contact-section { width: 90%;}
+.contact-form{ margin-right:40px;}
+.contact-section h2 { text-align: center;}
+.work-img{ padding: 1%;}
+.footer-section {
+  /* font-size: 60%; */
+  width: 90%;
+  line-height: 145%;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) {
+
+.mobile-main-nav{ display:inline-block;}
+.main-nav{ display:none}
+.main-nav{ 
+    float:left;
+    margin-left:50px;
+    margin-top:10px;
+  }
+.main-nav li{ display:block;}
+.main-nav li a:link, .main-nav li a:visited{
+    display:block;
+    border:0;
+    font-size: 80%;
+    padding:10px 0;
+  }
+.sticky-nav .mobile-main-nav i{color:#673000;}
+.sticky-nav .main-nav{
+  margin-top:10px;
+  margin-left:50px;
+ }
+ .sticky-nav .main-nav li a:link, .sticky-nav .main-nav li a:visited{
+   color: #231000;
+   padding:10px 0;
+ }
+ .white-logo, .white-logo-b{ padding-left:10px;}
+ h1, h2, h3{
+  font-size:120%;
+  letter-spacing: 5px;
+  margin-left: 40px;
+}
+.about-section p, .hero-text p{
+width:100%;
+font-size: 80%;
+padding: 0 12px;
+}
+.btn{ margin-left: 25%;}
+.first-skills-list, .second-skills-list{margin-left:25%;}
+.contact-form { width: 100%;}
+.my-work-section h3 { margin-left: 25px;}
+.work-img { padding: 5%;}
+.footer-section {
+    font-size:55%;
+    width: 100%;
+    padding: 0 2%;
+}
+}

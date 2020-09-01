@@ -1,114 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Old+Standard+TT&display=swap" rel="stylesheet">
+  <meta name="description" content="Liamoh Thomas is an all-around creative emerging font-end web designer and developer.">
+  <!--grid-css-->
+  <link rel="stylesheet" type="text/css" href="Vendor/css/grid.css">
+  <!--normalize-css-->
+  <link rel="stylesheet" type="text/css" href="Vendor/css/normalize.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!--google-font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+   <!--style-css-->
+  <link rel="stylesheet" href="Resource/css/style.css" type="text/css">
+  <link rel="stylesheet" href="Resource/css/queries.css" type="text/css">
+  <title>Liamoh Thomas' Resume</title>
 
-  <!-- fontawesome -->
-<script src="https://kit.fontawesome.com/eb49dd3df4.js" crossorigin="anonymous"></script>
-
-  <!-- css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Liamoh's Resume</title>
+<link rel="apple-touch-icon" sizes="76x76" href="/Resource/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Resource/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Resource/favicons/favicon-16x16.png">
+<link rel="manifest" href="/Resource/favicons/site.webmanifest">
+<link rel="mask-icon" href="/Resource/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/Resource/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/Resource/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 </head>
-
 <body>
-  <section class="nav-section">
-    <nav class="navbar navbar-expand-lg my-navbar">
-      <a class="navbar-brand" href="#"><img src="images/lt_logo.png" /></a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
- </button>
+  <header>
+    <nav>
+      <div class="row">
+        <img src="Resource/img/lt_logo-w.png" alt="LT Logo" class="white-logo">
+        <a href="#"><img src="Resource/img/lt_logo-b.png" alt="LT Logo" class="white-logo-b"></a>
 
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-items"><a class="nav-link lt-link" href="#about">about</a></li>
-        <li class="nav-items"><a class="nav-link lt-link" href="Liamoh's Resume.docx" target="_blank">Resume</a></li>
-        <li class="nav-items"><a class="nav-link lt-link" href="#contact">contact</a></li>
-      </ul>
+        <ul class="main-nav js--main-nav">
+          <li><a href="#top"></a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#resume">resume</a></li>
+          <li><a href="#my-work">my-works</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="mobile-main-nav js--mobile-main-nav">
+          <i class="fas fa-align-justify"></i>
+        </div>
       </div>
     </nav>
-  </section>
-
-  <div class="container-fluid">
-    <section class="video-bg-container video-main-container">
-      <div class="video-container">
-        <video src="video/code_white_black.mov" type="mov" autoplay  loop>
-        </video>
-      </div>
-      <div class="video-overlay">
-      </div>
-      <div class="overlay-contents">
-        <h1 class="big-heading">Hey There,</h1>
-        <p class="home-page-content">I’m a Front-end Developer and Designer! I have passion and love for what I do.</p>
-        <a href="#contact"><button class="home-page-cta-btn btn btn-warning" type="button" name="button">contact me</button></a>
-      </div>
-    </section>
-  </div>
-
-  <section class="containter-fluid" id="about">
     <div class="row">
-      <div class="col-lg-6 about-content-bg">
-        <div class="about-me-left-content">
-          <h1>I'm Liamoh T</h1>
-          <p class="about-content">I am versatile Front-end Web  Developer & Designer. I have over four plus years of experience in the web design and development word using innovative coding styles.</p>
-        </div>
+      <div class="col span-1-of-2 liamoh-img">
+        <img src="Resource/img/me.jpg" alt="Liamoh Thomas">
+      </div>
+      <div class="col span-1-of-2 hero-text js--liamoh">
+      <h1 class="">Liamoh Thomas</h1>
+      <p>I’m a Front-end Developer and Designer! I have passion and love for what I do.</p>
+      <a href="#contact" class="btn js-contact-btn js--wp-1">contact me</a>
+      </div>
+    </div>
+  </header>
 
+  <section class="about-section" id="about">
+    <div class="row">
+      <p>I am versatile Front-end Web Developer and Designer. I have over four plus years of experience in the web design and development word using innovative coding styles.</p>
+    </div>
+    <div class="row">
+      <h2 class="skills js--wp-2">technical skills</h2>
+    </div>
+    <div class="row skills-list">
+      <div class="col span-1-of-2">
+        <ul class="first-skills-list js--wp-2">
+          <li><i class="fas fa-check-square"></i>HTML 5 & CSS</li>
+          <li><i class="fas fa-check-square"></i>BootStrap</li>
+          <li><i class="fas fa-check-square"></i>WordPress</li>
+          <li><i class="fas fa-check-square"></i>jquery</li>
+        </ul>
       </div>
-      <div class="col-lg-6" id="technical-skills">
-        <div class="technical-skills">
-          <h1>technical skills</h1>
-          <div class="technical-skills-lists">
-            <li>HTML 5</li>
-            <li>CSS</li>
-            <li>bootstrap</li>
-            <li>WordPress</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>phpMyAdmin</li>
-            <li>illustrator</li>
-            <li>Photoshop</li>
-            <!-- I am versatile Front-end Web -->
-          </div>
-        </div>
+
+      <div class="col span-1-of-2">
+        <ul class="second-skills-list js--wp-2">
+          <li><i class="fas fa-check-square"></i>javascript</li>
+          <li><i class="fas fa-check-square"></i>phpMyAdmin</li>
+          <li><i class="fas fa-check-square"></i>Illustrator</li>
+          <li><i class="fas fa-check-square"></i>Photoshop</li>
+        </ul>
       </div>
-      <!-- <div class="about-footer">
-      <hr class="about-hr">
-      <p class="about-quote">“Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.” </p>
-      </div> -->
     </div>
   </section>
-  <!-- contact -->
-  <section class="contact containter-fluid" id="contact">
-    <div class="contact-me">
-      <h1 class="contact-name">Liamoh Thomas</h1>
-      <hr class="horizontal-line"/>
-      <div class="contact-info">
-        <p><a href="tel:7142967880"><i class="contact-icon fas fa-phone-volume fa-1x"></i>714-296-7880</a></p>
-        <p><a href="mailto:heartofgrafx@gmail.com"><i class="contact-icon fas fa-envelope-square fa-1x"></i>heartofgrafx@gmail.com</a></p>
-        <p><a href="www.heartofgrafx.com"><i class="contact-icon fab fa-firefox-browser fa-1x"></i>heartofgrafx</a></p>
-      </div>
-    </hr/>
-    <hr class="horizontal-line" />
-    <p class="quote-of-the-day">“Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.” <span>Albert Einstein</span>   </p>
+
+  <section class="contact-section js--contact-section"  id="contact">
+    <div class="row">
+      <h2>I will love to hear for you</h2>
     </div>
-<!-- <div class="footer"> -->
+    <div class="row">
+      <form action="#" method="POST" class="contact-form">
+        <div class="row">
+        <div class="col span-1-of-2">
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
 
-<!-- </div> -->
-
+        <div class="col span-1-of-2">
+          <label for="eml">Email</label>
+          <input type="email" id="eml" name="eml" required>
+        </div>
       </div>
-    </section>
+      <div class="row message">
+        <label>Send me message</label>
+        <textarea name="message"></textarea>
+      </div>
+      <div class="row">
+        <input type="button" value="send" class="btn">
+      </div>
+      </form>
+    </div>
+  </section>
 
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/style.js"></script>
+  <section class="my-work-section" id="my-work">
+    <h3>some of my works</h3>
+    <div class="row work-img">
+      <div class="col span-1-of-4 js--wp-3">
+        <a href="https://liamohth.github.io/Omnifood/"  target="_blank"><img class="img1" src="Resource/img/img1.jpg" alt="Omnifood"></a>
+      </div>
+      <div class="col span-1-of-4 js--wp-3">
+        <a href="https://liamohth.github.io/Network-to-enhance-livingstandard"  target="_blank"><img class="img2" src="Resource/img/img2.jpg" alt="network to enhance live standard"></a>
+      </div>
+      <div class="col span-1-of-4 js--wp-3">
+        <a href="https://liamohth.github.io/Milk-Way/"  target="_blank"><img class="img3" src="Resource/img/img3.jpg" alt="milky way"></a>
+      </div>
+      <div class="col span-1-of-4 js--wp-3">
+        <a href="https://www.heartofgrafx.com"  target="_blank"><img class="img4" src="Resource/img/img4.jpg" alt="heartofgrafx website"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <div class="row">
+      <h6>
+        “Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.” Albert Einstein</h6>
+    </div>
+    <div class="row">
+        <p class="coypright">Coypright &copy; 2020 Liamoh Thomas. All rights reserved. <span class="my-email">&verbar; heartofgrafx@gmail.com</span></p>
+       <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="Resource/js/style.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176933665-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176933665-1');
+</script>
+
 </body>
-
 </html>
