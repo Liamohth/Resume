@@ -1,5 +1,5 @@
 <?php
-funciton has_header_injection($str){
+function has_header_injection($str){
   return preg_match("/[\r\n]/", $str);
 }
 if(isset ($_Post["contact-form"])){
@@ -23,7 +23,7 @@ if(has_header_injection($fullname || $eml)){
 
   $message = "fullName: $fullname\r\n";
   $message .= "email: $eml\r\n\";
-  $message .= "yourm: \r\n$msg";
+  $message .= yourmessage: \r\n$msg";
 
  $message = wordwrap($message, 50);
 
