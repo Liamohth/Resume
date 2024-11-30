@@ -247,6 +247,9 @@ input[type=button]{
   text-align: center;
   color:#673000;
 }
+.image-know{
+  font-size:.9rem;
+}
 .coypright{
   margin-top:30px;
 }
