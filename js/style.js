@@ -7,5 +7,5 @@ document.querySelector(".technical-skills").className ="technical-skills-list-2"
 });
 
 const thisYear = document.querySelector(".year");
-conts currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 thisYear.textContent.currentYear;
